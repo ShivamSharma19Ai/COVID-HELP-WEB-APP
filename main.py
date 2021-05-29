@@ -16,4 +16,9 @@ def posts():
     return render_template('posts.html')
 
 
+@app.route('/vaccinations')
+def vaccinations():
+    return render_template('vaccinations.html')
+
+
 app.run(debug=True)
