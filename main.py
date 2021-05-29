@@ -12,4 +12,9 @@ def covid19():
     return render_template('page.html')
 
 
+@app.route('/vaccinations')
+def vaccinations():
+    return render_template('vaccinations.html')
+
+
 app.run(debug=True)
