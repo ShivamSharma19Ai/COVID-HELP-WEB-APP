@@ -20,6 +20,7 @@
 
     <!-- Vendor CSS Files -->
     <link href="static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='static/css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="static/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
     <link href="static/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
     <link href="static/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
@@ -37,7 +38,7 @@
   ======================================================== -->
 </head>
 
-<body class="bg-dark">
+<body class="bg-info">
 
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top ">
@@ -51,11 +52,11 @@
 
                     <nav id="navbar" class="navbar order-last order-lg-0">
                         <ul>
-                            <li><a class="nav-link scrollto" href="/">Home</a></li>
-                            <li><a class="nav-link scrollto" href="/">About</a></li>
-                            <li><a class="nav-link scrollto" href="/">FAQ's</a></li>
-                            <li><a class="nav-link scrollto active" href="/covid19">COVID-19 Live</a></li>
-                            <li><a class="nav-link scrollto " href="#portfolio">Posts</a></li>
+                            <li><a class="nav-link scrollto" href="#hero">Home</a></li>
+                            <li><a class="nav-link scrollto" href="#about">About</a></li>
+                            <li><a class="nav-link scrollto" href="#faq">FAQ's</a></li>
+                            <li><a class="nav-link scrollto" href="/covid19">COVID-19 Live</a></li>
+                            <li><a class="nav-link scrollto active" href="/posts">Posts</a></li>
                             <li><a class="nav-link scrollto" href="#pricing">Vaccination</a></li>
                             <li><a class="nav-link scrollto" href="#about">Helplines</a></li>
                             <li><a class="nav-link scrollto" href="#about">Quarantine Food</a></li>
@@ -72,16 +73,60 @@
 
         </div>
     </header><!-- End Header -->
-    <!--covid-update content-->
+
+    <div class="container" style="padding: 80px">
+        <div class="row">
+            <form action="">
+                <div class="form-inline">
+                    <label for="Name">Name</label><br>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-inline">
+                    <label for="Location">Location</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="comment">Post:</label>
+                    <textarea class="form-control" rows="5" id="comment"></textarea>
+                </div>
+                <div class="form-inline">
+                    <label for="Contact Details">Contact Details</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-inline">
+                    <label for="Location">Social Link</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div>
+                    <label for="">Which of the following thing are you posting about ?</label>
+                    <br>
+                    <input type="checkbox" value="Oxygen">
+                    <label for="">Oxygen</label><br>
+                    <input type="checkbox" value="Beds">
+                    <label for="">Beds</label><br>
+                    <input type="checkbox" value="Remedesvir">
+                    <label for="">Remedesvir</label><br>
+                    <input type="checkbox" value="Toclimuzab">
+                    <label for="">Toclimuzab</label><br>
+
+                    <label for="">Are You seeking help for covid resources or giving help:</label>
+                    <br>
+                    <input type="radio">
+                    <label for="">Helper</label>
+                    <br>
+                    <input type="radio">
+                    <label for="">Seeker</label>
+                    <br>
+
+                    <input type="submit" value="Submit">
+                </div>
+        </div>
 
 
-    <iframe src="https://public.domo.com/cards/aKg4r" style="padding-top: 73px;" width="100%" height="600"
-        marginheight="0" marginwidth="0" frameborder="0"></iframe>
-    <iframe src="https://public.domo.com/cards/dJ45D" width="100%" height="600" marginheight="0" marginwidth="0"
-        frameborder="0"></iframe>
-    <iframe src="https://public.domo.com/cards/dNl4L" width="100%" height="600" marginheight="0" marginwidth="0"
-        frameborder="0"></iframe>
+        </form>
 
+    </div>
+    </div>
 
 
 
