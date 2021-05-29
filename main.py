@@ -23,4 +23,9 @@ def login():
 def register():
     return render_template('register.html')
 
+@app.route('/vaccinations')
+def vaccinations():
+    return render_template('vaccinations.html')
+
+
 app.run(debug=True)
