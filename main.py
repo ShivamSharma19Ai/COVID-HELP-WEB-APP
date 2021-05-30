@@ -27,5 +27,15 @@ def register():
 def vaccinations():
     return render_template('vaccinations.html')
 
+@app.route('/helpline')
+def helpline():
+    return render_template('helplines.html')
 
+@app.route('/quarantinefood')
+def quarantinefood():
+    return render_template('qtfood.html')
+
+@app.route('/others')
+def others():
+    return render_template('others.html')
 app.run(debug=True)
