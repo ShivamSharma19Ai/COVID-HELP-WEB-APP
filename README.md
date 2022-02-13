@@ -81,7 +81,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Covaid HomePage][product-screenshot]](static/img/snapshots/homepage.png)
+<img src="static/img/snapshots/homepage.png" alt="Logo" >
 
 <p>Our website, <b>Covaid</b> aims at narrowing down the enormous amount of COVID-19 Resources available to the users and classifying them in an <b>organized</b>, analytical manner. We not only provide users with a <b>detailed & holistic outlook</b> of the resources but also, provide them with a consumer-based experience giving a person in need access to our resources fast & in a <b>Helper-Seeker</b> fashion. <br><br> Apart from that, Our Website is <b>Open-Source</b> based making it an application <b>of the people, by the people & for the people.</b> </p>
 
@@ -134,7 +134,16 @@ Here are some important steps to get our website up and running locally on your 
 
 Here is a glimpse of our Web Application <b>Covaid</b> : 
 
-
+<img src="static/img/snapshots/homepage.png" alt="Logo" >
+<img src="static/img/snapshots/vacc-1.png" alt="Logo" >
+<img src="static/img/snapshots/vacc-2.png" alt="Logo" >
+<img src="static/img/snapshots/food.png" alt="Logo" >
+<img src="static/img/snapshots/covidtracker-1.png" alt="Logo" >
+<img src="static/img/snapshots/covidtracker-2.png" alt="Logo" >
+<img src="static/img/snapshots/covidtracker-3.png" alt="Logo" >
+<img src="static/img/snapshots/posts.png" alt="Logo" >
+<img src="static/img/snapshots/help.png" alt="Logo" >
+<img src="static/img/snapshots/other.png" alt="Logo" >
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -153,7 +162,7 @@ Here is a glimpse of our Web Application <b>Covaid</b> :
 - [x] Quarantine based Food Resources & Links
 - [x] Links to Other Covid related help websites
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
