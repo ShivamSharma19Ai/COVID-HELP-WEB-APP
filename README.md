@@ -30,7 +30,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/ShivamSharma19Ai/COVID-HELP-WEB-APP">
-    <img src="static/img/covaid_2.png" alt="Logo" width="80" height="80">
+    <img src="static/img/covaid_2.png" alt="Logo" >
   </a>
 
 <h3 align="center">Covaid</h3>
