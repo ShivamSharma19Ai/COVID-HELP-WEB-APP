@@ -61,6 +61,7 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
+    <li><a href="#various-features">Various Features</a></li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
@@ -68,7 +69,6 @@
       </ul>
     </li>
     <li><a href="#highlights-of-our-project">Highlights of our Project</a></li>
-    <li><a href="#various-features">Various Features</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -98,6 +98,24 @@
 * [JavaScript](https://javascript.info/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- ROADMAP -->
+## Various Features
+
+
+- [x] Covid-19 Cases Live Tracker
+- [x] Dedicated Posts Section for direct P2P communication
+    - [x] Helper-Seeker Option
+    - [x] Various Injections & medicines option
+- [x] Location-based Vaccination Center Tracker
+- [x] State wise Helpline Numbers
+- [x] Quarantine based Food Resources & Links
+- [x] Links to Other Covid related help websites
+
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 
 
 
@@ -149,22 +167,6 @@ Here is a glimpse of our Web Application <b>Covaid</b> :
 
 
 
-<!-- ROADMAP -->
-## Various Features
-
-
-- [x] Covid-19 Cases Live Tracker
-- [x] Dedicated Posts Section for direct P2P communication
-    - [x] Helper-Seeker Option
-    - [x] Various Injections & medicines option
-- [x] Location-based Vaccination Center Tracker
-- [x] State wise Helpline Numbers
-- [x] Quarantine based Food Resources & Links
-- [x] Links to Other Covid related help websites
-
-
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
